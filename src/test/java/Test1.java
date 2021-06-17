@@ -10,7 +10,6 @@ public class Test1 {
     public static void readFile(String regex) {
         try {
             int count = 0;
-           // File myObj = new File(System.getProperty("user.dir")+"/2ndProject/Server.log");
             File myObj = new File("src/test/Server.log");
 
             Scanner myReader = new Scanner(myObj);
